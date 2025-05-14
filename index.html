@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+   <audio id="bg-music" src="assets/music/birthday-melody.mp3" autoplay loop></audio>
+  <button id="music-toggle" aria-label="Mute/Unmute Music">🔊</button>s
+  <!-- Decorative floating balloons -->
+  <div class="balloons">
+    <div class="balloon" style="--i:0;"></div>
+    <div class="balloon" style="--i:1;"></div>
+    <div class="balloon" style="--i:2;"></div>
+    <div class="balloon" style="--i:3;"></div>
+    <div class="balloon" style="--i:4;"></div>
+  </div>
+
+  <div class="overlay">
+    <h1 class="title">Is it your birthday today?</h1>
+    <div class="buttons">
+      <button id="yes-btn" class="button">Yes, bring it on!</button>
+      <button id="no-btn" class="button red">Not yet...</button>
+    </div>
+  </div>
+
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
